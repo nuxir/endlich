@@ -91,6 +91,7 @@
   </head>
   <body>
     <div class="body">
+      
       <header
         id="header"
         data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 54, 'stickySetTop': '-54px', 'stickyChangeLogo': false}"
@@ -216,7 +217,7 @@
                           <li class="dropdown">
                             <a
                               href="/services.html"
-                              class="nav-link active dropdown-toggle"
+                              class="nav-link dropdown-toggle"
                               >Services</a
                             >
                             <ul class="dropdown-menu">
@@ -254,7 +255,7 @@
                           <li>
                             <a
                               href="/contact.html"
-                              class="nav-link"
+                              class="nav-link active"
                               >Contact</a
                             >
                           </li>
@@ -309,18 +310,18 @@
               <div
                 class="col-md-8 order-2 order-md-1 align-self-center p-static"
               >
-                <h1 class="text-color-dark font-weight-bold">Services</h1>
+                <h1 class="text-color-dark font-weight-bold">Contact</h1>
               </div>
               <div class="col-md-4 order-1 order-md-2 align-self-center">
                 <ul class="breadcrumb d-flex justify-content-md-end text-3-5">
                   <li>
                     <a
-                      href="/"
+                      href="demo-auto-services.html"
                       class="text-color-default text-color-hover-primary text-decoration-none"
                       >HOME</a
                     >
                   </li>
-                  <li class="active">SERVICES</li>
+                  <li class="active">CONTACT US</li>
                 </ul>
               </div>
             </div>
@@ -328,387 +329,318 @@
         </section>
 
         <div class="container py-4 my-5">
-          <div class="row mb-4 pb-2">
-            <div class="col">
-              <p
-                class="text-4 font-weight-semibold mb-4 appear-animation"
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-xl-4 offset-xl-1 mb-5 mb-lg-0">
+              <div class="overflow-hidden">
+                <h2
+                  class="text-color-dark font-weight-bold line-height-3 text-5-5 mb-0 appear-animation"
+                  data-appear-animation="maskUp"
+                  data-appear-animation-delay="250"
+                >
+                  123 Street Name, Los Angeles, CA
+                </h2>
+              </div>
+              <div class="overflow-hidden">
+                <a
+                  href="#get-direction"
+                  data-hash
+                  data-hash-offset="0"
+                  data-hash-offset-lg="100"
+                  class="d-inline-block custom-text-underline-1 font-weight-bold border-color-primary text-decoration-none text-3-5 appear-animation"
+                  data-appear-animation="maskUp"
+                  data-appear-animation-delay="500"
+                  >GET DIRECTIONS</a
+                >
+              </div>
+              <ul
+                class="list list-unstyled text-color-dark font-weight-bold text-4 py-2 my-4 appear-animation"
                 data-appear-animation="fadeInUpShorter"
-                data-appear-animation-delay="300"
-                style="color: #282626"
+                data-appear-animation-delay="750"
               >
-                Get reliable & affordable services for your facility with a 100%
-                satisfaction guaranteed!
-              </p>
+                <li class="d-flex align-items-center mb-2">
+                  <i class="icons icon-envelope text-color-dark me-2"></i>
+                  Email:
+                  <a
+                    href="mailto:porto@domain.com"
+                    class="text-color-dark text-color-hover-primary text-decoration-none ms-1"
+                    >porto@domain.com</a
+                  >
+                </li>
+                <li class="d-flex align-items-center mb-0">
+                  <i class="icons icon-phone text-color-dark me-2"></i>
+                  Phone:
+                  <a
+                    href="tel:1234567890"
+                    class="text-color-dark text-color-hover-primary text-decoration-none ms-1"
+                    >+123 4567 890</a
+                  >
+                </li>
+              </ul>
               <p
-                class="pb-1 mb-3 appear-animation"
+                class="mb-0 appear-animation"
                 data-appear-animation="fadeInUpShorter"
-                data-appear-animation-delay="500"
+                data-appear-animation-delay="1000"
               >
-                At Endlich solutions, we take a collaborative and systematic
-                approach to every project, ensuring that our CAE services are
-                tailored to meet your unique engineering needs. Our process is
-                designed to deliver accurate, efficient, and reliable results
-                from start to finish:
+                We are here to help you with your auto repair and service needs.
+                Come in, give us a call or send us an email. We will get back to
+                you as soon as we can during regular business hours.
               </p>
             </div>
-          </div>
-          <div
-            class="row row-gutter-sm mb-3 appear-animation"
-            style="justify-content: center"
-            data-appear-animation="fadeInUpShorterPlus"
-            data-appear-animation-delay="950"
-          >
-            <div class="col-sm-6 col-lg-3 text-center mb-4">
-              <a
-                href="#"
-                class="text-decoration-none"
+            <div
+              class="col-lg-6 col-xl-5 offset-lg-1 appear-animation"
+              data-appear-animation="fadeInUpShorter"
+              data-appear-animation-delay="1250"
+            >
+              <form
+                class="contact-form custom-form-style-1"
+                action="php/contact-form.php"
+                method="POST"
               >
                 <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
+                  class="contact-form-success alert alert-success d-none mt-4"
                 >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-5.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Understanding Your Needs
-                  </h3>
+                  <strong>Success!</strong> Your message has been sent to us.
                 </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 text-center mb-4">
-              <a
-                href="#"
-                class="text-decoration-none"
-              >
-                <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-6.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Data Collection
-                  </h3>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 text-center mb-4">
-              <a
-                href="#"
-                class="text-decoration-none"
-              >
-                <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-7.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Model Development
-                  </h3>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 text-center mb-4">
-              <a
-                href="#"
-                class="text-decoration-none"
-              >
-                <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-8.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Simulation & Analysis
-                  </h3>
-                </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 text-center">
-              <a
-                href="#"
-                class="text-decoration-none"
-              >
-                <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-9.jpg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Optimization & Refinement
-                  </h3>
-                </div>
-              </a>
-            </div>
 
-            <div class="col-sm-6 col-lg-3 text-center mb-lg-0">
-              <a
-                href="#"
-                class="text-decoration-none"
-              >
-                <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-10.jpg"
-                      class="img-fluid"
-                      alt=""
+                <div class="contact-form-error alert alert-danger d-none mt-4">
+                  <strong>Error!</strong> There was an error sending your
+                  message.
+                  <span class="mail-error-message text-1 d-block"></span>
+                </div>
+
+                <div class="row row-gutter-sm">
+                  <div class="form-group col mb-3">
+                    <input
+                      type="text"
+                      value=""
+                      data-msg-required="Please enter your name."
+                      maxlength="100"
+                      class="form-control"
+                      name="name"
+                      id="name"
+                      required
+                      placeholder="First Name"
                     />
                   </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Delivering Insights & Solutions
-                  </h3>
                 </div>
-              </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0">
-              <a
-                href="#"
-                class="text-decoration-none"
-              >
-                <div
-                  class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                >
-                  <div class="thumb-info-wrapper">
-                    <img
-                      src="img/demos/auto-services/services/service-small-11.jpg"
-                      class="img-fluid"
-                      alt=""
+                <div class="row row-gutter-sm">
+                  <div class="form-group col mb-3">
+                    <input
+                      type="email"
+                      value=""
+                      data-msg-required="Please enter your email address."
+                      data-msg-email="Please enter a valid email address."
+                      maxlength="100"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                      placeholder="E-mail Address"
                     />
                   </div>
-                  <h3
-                    class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                  >
-                    Continuous Support
-                  </h3>
                 </div>
-              </a>
+                <div class="row">
+                  <div class="form-group col mb-3">
+                    <textarea
+                      maxlength="5000"
+                      data-msg-required="Please enter your message."
+                      rows="4"
+                      class="form-control"
+                      name="message"
+                      id="message"
+                      required
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div
+                  class="row appear-animation"
+                  data-appear-animation="fadeInUpShorterPlus"
+                  data-appear-animation-delay="1500"
+                >
+                  <div class="form-group col mb-0">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-modern font-weight-bold custom-btn-border-radius custom-btn-arrow-effect-1 text-3 px-5 py-3"
+                      data-loading-text="Loading..."
+                    >
+                      SUBMIT
+                      <svg
+                        class="ms-2"
+                        version="1.1"
+                        viewBox="0 0 15.698 8.706"
+                        width="17"
+                        xml:space="preserve"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <polygon
+                          stroke="#FFF"
+                          stroke-width="0.1"
+                          fill="#FFF"
+                          points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
 
-        <section class="section border-0 m-0">
-          <div class="container pb-3 my-5">
-            <div class="row justify-content-center pb-3 mb-4">
-              <div class="col text-center">
-                <div class="overflow-hidden">
-                  <h2
-                    class="font-weight-bold text-color-dark line-height-3 mb-0 appear-animation"
-                    data-appear-animation="maskUp"
-                    data-appear-animation-delay="250"
-                  >
-                    See What Our Services Include
-                  </h2>
-                </div>
-                <div
-                  class="d-inline-block custom-divider divider divider-primary divider-small my-3"
-                >
-                  <hr
-                    class="my-0 appear-animation"
-                    data-appear-animation="customLineProgressAnim"
-                    data-appear-animation-delay="600"
-                  />
-                </div>
-                <p
-                  class="font-weight-bold text-3-5 mb-1 appear-animation"
-                  data-appear-animation="fadeInUpShorterPlus"
-                  data-appear-animation-delay="500"
-                >
-                  We are very proud of the service we provide and stand by every
-                  product we carry.
-                </p>
-              </div>
-            </div>
+        <section
+          id="get-direction"
+          class="section bg-light border-0 box-shadow-1 position-relative z-index-1 py-4 m-0"
+        >
+          <div class="container py-2">
             <div
-              class="row appear-animation"
-              data-appear-animation="fadeInUpShorterPlus"
-              data-appear-animation-delay="1000"
+              class="row align-items-center justify-content-lg-center justify-content-xl-start"
             >
+              <div class="col-lg-3 col-xl-2 offset-xl-1 mb-2 mb-lg-0">
+                <h2
+                  class="text-color-dark font-weight-bold text-4-5 mb-0 appear-animation"
+                  data-appear-animation="fadeInRightShorterPlus"
+                  data-appear-animation-delay="250"
+                  data-plugin-options="{'accY': -100}"
+                >
+                  GET DIRECTIONS:
+                </h2>
+              </div>
+              <div class="col-lg-8">
+                <form
+                  class="custom-get-direction-form custom-form-style-1 appear-animation"
+                  data-appear-animation="fadeInRightShorterPlus"
+                  data-appear-animation-delay="500"
+                  data-plugin-options="{'accY': -100}"
+                  action=""
+                  method="post"
+                >
+                  <div class="d-flex align-items-stretch">
+                    <input
+                      type="text"
+                      class="custom-get-direction-address form-control w-100"
+                      data-msg-required="Please enter Starting Address."
+                      name="getDirectionAddress"
+                      value=""
+                      placeholder="Enter Your Starting Address"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      class="btn btn-dark btn-modern font-weight-bold custom-btn-border-radius text-3 btn-px-4 ms-3 my-1"
+                      data-loading-text="..."
+                    >
+                      GO
+                    </button>
+                  </div>
+                </form>
+              </div>
               <div
-                class="row row-gutter-sm mb-5 appear-animation"
-                data-appear-animation="fadeInUpShorter"
-                data-appear-animation-delay="750"
+                class="col-lg-11 col-xl-10 offset-xl-1 custom-get-direction-error alert alert-danger d-none mt-4 mx-3 mx-sm-auto"
               >
-                <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0">
-                  <a href="/services/FEA.html" class="text-decoration-none">
-                    <div
-                      class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                    >
-                      <div class="thumb-info-wrapper">
-                        <img
-                          src="img/demos/auto-services/services/service-small-1.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                      </div>
-                      <h3
-                        class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                      >
-                        Finite Element Analysis
-                      </h3>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center mb-4 mb-lg-0">
-                  <a href="/services/CFD.html" class="text-decoration-none">
-                    <div
-                      class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                    >
-                      <div class="thumb-info-wrapper">
-                        <img
-                          src="img/demos/auto-services/services/service-small-2.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                      </div>
-                      <h3
-                        class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                      >
-                        Computational Fluid Analysis
-                      </h3>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center mb-4 mb-sm-0">
-                  <a
-                    href="services/structural-simulations.html"
-                    class="text-decoration-none"
-                  >
-                    <div
-                      class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                    >
-                      <div class="thumb-info-wrapper">
-                        <img
-                          src="img/demos/auto-services/services/service-small-3.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                      </div>
-                      <h3
-                        class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                      >
-                        Structural Simulation
-                      </h3>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-sm-6 col-lg-3 text-center">
-                  <a
-                    href="services/thermal-simulations.html"
-                    class="text-decoration-none"
-                  >
-                    <div
-                      class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten"
-                    >
-                      <div class="thumb-info-wrapper">
-                        <img
-                          src="img/demos/auto-services/services/service-small-4.jpg"
-                          class="img-fluid"
-                          alt=""
-                        />
-                      </div>
-                      <h3
-                        class="text-transform-none font-weight-bold text-5 mt-2 mb-0"
-                      >
-                        Thermal Simulation
-                      </h3>
-                    </div>
-                  </a>
-                </div>
+                <p class="text-center mb-0">
+                  There's an error and we couldn't find your address.<br /><strong
+                    class="custom-get-direction-error-message d-none"
+                  ></strong>
+                </p>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="section section-height-3 bg-primary border-0 m-0">
-          <div class="container">
-            <div class="row align-items-center">
-              <div
-                class="col-lg-6 col-xl-7 text-center text-lg-start mb-4 mb-lg-0"
-              >
-                <h2
-                  class="text-color-light font-weight-medium text-3-5 line-height-2 line-height-sm-1 ls-0 mb-2 mb-lg-2"
-                >
-                  LOOKING FOR HONEST AND RELIABLE SERVICES?
-                </h2>
-                <h3
-                  class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1"
-                >
-                  Best Engineering Partner For You
-                </h3>
-                <p
-                  class="font-weight-bold text-color-light text-4 opacity-7 mb-0"
-                >
-                  Connect Us Today With Our Online Form
-                </p>
+        <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+        <div
+          class="position-relative appear-animation"
+          data-appear-animation="fadeInUpShorterPlus"
+          data-appear-animation-delay="750"
+        >
+          <div
+            class="custom-directions-panel position-absolute top-0 left-0 w-100pct w-md-50pct w-lg-25pct h-100 mh-100 overflow-auto z-index-1"
+          ></div>
+          <div
+            id="googlemaps"
+            class="google-map m-0"
+            style="min-height: 500px"
+          ></div>
+        </div>
+
+        <section
+          class="section bg-transparent position-relative border-0 z-index-1 m-0 p-0"
+        >
+          <div class="container py-4">
+            <div class="row align-items-center text-center py-5">
+              <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <img
+                  src="img/logos/logo-8.png"
+                  alt
+                  class="img-fluid"
+                  style="max-width: 90px"
+                />
               </div>
-              <div class="col-lg-6 col-xl-5">
-                <div
-                  class="d-flex flex-column flex-lg-row align-items-center justify-content-between"
-                >
-                  <div class="feature-box align-items-center mb-3 mb-lg-0">
-                    <div class="feature-box-icon bg-transparent">
-                      <i class="icons icon-phone text-6 text-color-light"></i>
-                    </div>
-                    <div class="feature-box-info line-height-2 ps-1">
-                      <span
-                        class="d-block text-1 font-weight-semibold text-color-light mb-1"
-                        >CALL US NOW</span
-                      >
-                      <strong class="text-4-5"
-                        ><a
-                          href="tel:+917736465885"
-                          class="text-color-light text-decoration-none"
-                          >+91 77364 65885</a
-                        ></strong
-                      >
-                    </div>
-                  </div>
-                  <a
-                    href="/contact.html"
-                    class="btn btn-light btn-outline custom-btn-border-radius font-weight-bold text-color-light text-color-hover-dark bg-color-hover-light btn-px-5 btn-py-3"
-                    >CONNECT WITH US</a
-                  >
-                </div>
+              <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <img
+                  src="img/logos/logo-9.png"
+                  alt
+                  class="img-fluid"
+                  style="max-width: 140px"
+                />
+              </div>
+              <div class="col-sm-4 col-lg-2 mb-5 mb-lg-0">
+                <img
+                  src="img/logos/logo-10.png"
+                  alt
+                  class="img-fluid"
+                  style="max-width: 140px"
+                />
+              </div>
+              <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
+                <img
+                  src="img/logos/logo-11.png"
+                  alt
+                  class="img-fluid"
+                  style="max-width: 140px"
+                />
+              </div>
+              <div class="col-sm-4 col-lg-2 mb-5 mb-sm-0">
+                <img
+                  src="img/logos/logo-12.png"
+                  alt
+                  class="img-fluid"
+                  style="max-width: 100px"
+                />
+              </div>
+              <div class="col-sm-4 col-lg-2">
+                <img
+                  src="img/logos/logo-13.png"
+                  alt
+                  class="img-fluid"
+                  style="max-width: 100px"
+                />
               </div>
             </div>
           </div>
+          <svg
+            class="custom-svg-3"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 193 495"
+          >
+            <path
+              fill="#1C5FA8"
+              d="M193,25.73L18.95,247.93c-13.62,17.39-10.57,42.54,6.82,56.16L193,435.09V25.73z"
+            />
+            <path
+              fill="none"
+              stroke="#FFF"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+              d="M196,53.54L22.68,297.08c-12.81,18-8.6,42.98,9.4,55.79L196,469.53V53.54z"
+            />
+          </svg>
         </section>
       </div>
 
@@ -960,8 +892,6 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="vendor/vide/jquery.vide.min.js"></script>
     <script src="vendor/vivus/vivus.min.js"></script>
-    <script src="vendor/bootstrap-star-rating/js/star-rating.min.js"></script>
-    <script src="vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.js"></script>
 
     <!-- Theme Base, Components and Settings -->
     <script src="js/theme.js"></script>
@@ -977,5 +907,266 @@
 
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script>
+      /*
+			Map Settings
+
+				Find the Latitude and Longitude of your address:
+					- https://www.latlong.net/
+					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+
+			*/
+
+      // Map Markers
+      var mapMarkers = [
+        {
+          address: "New York, NY 10017",
+          html: "<strong>Porto Auto Services</strong><br>New York, NY 10017",
+          icon: {
+            image: "img/demos/auto-services/map-pin.png",
+            iconsize: [31, 40],
+            iconanchor: [14, 40],
+          },
+          popup: false,
+        },
+      ];
+
+      // Map Initial Location
+      var initLatitude = 40.75198;
+      var initLongitude = -73.96978;
+
+      // Map Extended Settings
+      var mapSettings = {
+        controls: {
+          draggable: $.browser.mobile ? false : true,
+          panControl: true,
+          zoomControl: true,
+          mapTypeControl: true,
+          scaleControl: true,
+          streetViewControl: true,
+          overviewMapControl: true,
+        },
+        scrollwheel: false,
+        markers: mapMarkers,
+        latitude: initLatitude,
+        longitude: initLongitude,
+        zoom: 13,
+      };
+
+      var map = $("#googlemaps").gMap(mapSettings),
+        mapRef = $("#googlemaps").data("gMap.reference");
+
+      var mapRef = $("#googlemaps").data("gMap.reference");
+
+      // Styles from https://snazzymaps.com/
+      var styles = [
+        {
+          featureType: "water",
+          elementType: "geometry",
+          stylers: [{ color: "#e9e9e9" }, { lightness: 17 }],
+        },
+        {
+          featureType: "landscape",
+          elementType: "geometry",
+          stylers: [{ color: "#f5f5f5" }, { lightness: 20 }],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry.fill",
+          stylers: [{ color: "#ffffff" }, { lightness: 17 }],
+        },
+        {
+          featureType: "road.highway",
+          elementType: "geometry.stroke",
+          stylers: [{ color: "#ffffff" }, { lightness: 29 }, { weight: 0.2 }],
+        },
+        {
+          featureType: "road.arterial",
+          elementType: "geometry",
+          stylers: [{ color: "#ffffff" }, { lightness: 18 }],
+        },
+        {
+          featureType: "road.local",
+          elementType: "geometry",
+          stylers: [{ color: "#ffffff" }, { lightness: 16 }],
+        },
+        {
+          featureType: "poi",
+          elementType: "geometry",
+          stylers: [{ color: "#f5f5f5" }, { lightness: 21 }],
+        },
+        {
+          featureType: "poi.park",
+          elementType: "geometry",
+          stylers: [{ color: "#dedede" }, { lightness: 21 }],
+        },
+        {
+          elementType: "labels.text.stroke",
+          stylers: [
+            { visibility: "on" },
+            { color: "#ffffff" },
+            { lightness: 16 },
+          ],
+        },
+        {
+          elementType: "labels.text.fill",
+          stylers: [
+            { saturation: 36 },
+            { color: "#333333" },
+            { lightness: 40 },
+          ],
+        },
+        { elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+        {
+          featureType: "transit",
+          elementType: "geometry",
+          stylers: [{ color: "#f2f2f2" }, { lightness: 19 }],
+        },
+        {
+          featureType: "administrative",
+          elementType: "geometry.fill",
+          stylers: [{ color: "#fefefe" }, { lightness: 20 }],
+        },
+        {
+          featureType: "administrative",
+          elementType: "geometry.stroke",
+          stylers: [{ color: "#fefefe" }, { lightness: 17 }, { weight: 1.2 }],
+        },
+      ];
+
+      var styledMap = new google.maps.StyledMapType(styles, {
+        name: "Styled Map",
+      });
+
+      mapRef.mapTypes.set("map_style", styledMap);
+      mapRef.setMapTypeId("map_style");
+
+      // -- GET DIRECTION --------------------------------------------------------
+      var $getDirectionForm = $(".custom-get-direction-form"),
+        $directionPanel = $(".custom-directions-panel"),
+        directionsRenderer = new google.maps.DirectionsRenderer(),
+        directionsService = new google.maps.DirectionsService();
+
+      directionsRenderer.setMap(mapRef);
+      directionsRenderer.setPanel($directionPanel[0]);
+
+      $getDirectionForm.on("submit", function (e) {
+        e.preventDefault();
+        calculateAndDisplayRoute(
+          directionsService,
+          directionsRenderer,
+          mapRef,
+          true,
+        );
+      });
+
+      $(window).afterResize(function () {
+        calculateAndDisplayRoute(directionsService, directionsRenderer, mapRef);
+      });
+
+      function calculateAndDisplayRoute(
+        directionsService,
+        directionsRenderer,
+        mapRef,
+        scrollTo,
+      ) {
+        var $addressInput = $(".custom-get-direction-address"),
+          start = $addressInput.val(), // The address entered on input field
+          end = "New York, NY 10017"; // Address of destination
+
+        if (!$addressInput.val()) {
+          return;
+        }
+
+        // Generate the route
+        directionsService.route(
+          {
+            origin: start,
+            destination: end,
+            travelMode: google.maps.TravelMode.DRIVING,
+          },
+          (response, status) => {
+            if (status === "OK") {
+              setMapAndPanelSize();
+              directionsRenderer.setDirections(response);
+            } else {
+              setDirectionErrorMessages(status);
+            }
+
+            if (scrollTo) {
+              $("html, body").animate(
+                {
+                  scrollTop:
+                    $("#get-direction").offset().top -
+                    $("#header").outerHeight(),
+                },
+                1000,
+              );
+            }
+          },
+        );
+      }
+
+      function setMapAndPanelSize() {
+        var $googleMap = $("#googlemaps"),
+          $directionPanel = $(".custom-directions-panel"),
+          $errorWrapper = $(".custom-get-direction-error"),
+          panelWidth = $directionPanel.width();
+
+        $errorWrapper.addClass("d-none").removeClass("animated fadeIn");
+
+        if ($(window).width() < 768) {
+          $directionPanel
+            .removeClass("position-absolute mh-100")
+            .attr("style", "max-height: 300px;");
+
+          $googleMap.css({
+            width: "",
+            "margin-left": "",
+          });
+        } else {
+          $directionPanel
+            .addClass("position-absolute mh-100")
+            .css("max-height", "");
+
+          $googleMap.attr(
+            "style",
+            $googleMap.attr("style") +
+              "width: calc( 100% - " +
+              panelWidth +
+              "px ) !important; margin-left: " +
+              panelWidth +
+              "px !important;",
+          );
+        }
+      }
+
+      function setDirectionErrorMessages(status) {
+        var $errorWrapper = $(".custom-get-direction-error"),
+          $errorMessage = $(".custom-get-direction-error-message");
+
+        $errorWrapper.removeClass("d-none").addClass("animated fadeIn");
+
+        var error = "";
+        switch (status) {
+          case "NOT_FOUND":
+            error = "Address not found. Please try again.";
+            break;
+
+          case "ZERO_RESULTS":
+            error =
+              "By some reason we couldn't generate a route for this address.";
+            break;
+
+          default:
+            error = status;
+            break;
+        }
+
+        $errorMessage.text("ERROR: " + error).removeClass("d-none");
+      }
+    </script>
   </body>
 </html>
