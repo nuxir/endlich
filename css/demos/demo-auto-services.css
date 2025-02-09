@@ -12,6 +12,7 @@ body {
 		border-radius: 7px !important;
 }
 
+
 .custom-text-underline-1 {
 		border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
@@ -536,7 +537,7 @@ body {
 * Footer
 */
 #footer {
-		background: #333333;
+		background: #1A1A1D;
 }
 
 #footer a:not(.btn):not(.no-footer-css), #footer li, #footer span, #footer p {
