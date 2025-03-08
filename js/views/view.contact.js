@@ -33,21 +33,21 @@ async function whatsapp() {
     message: message,
   };
   const formBody = new URLSearchParams({
-    // "entry.1042504169": formData.name,
-    // "entry.686074173": formData.email,
-    // "entry.206193686": formData.message,
+    "entry.502134158": formData.name,
+    "entry.1295046311": formData.email,
+    "entry.660971608": formData.message,
   });
 
-  // const googleFormUrl =
-    // "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeiHIJVATQlPKILLEd0g8VGIT-e2rllR_wma9cKD1-76mAoKQ/formResponse";
-  // await fetch(googleFormUrl, {
-  //   method: "POST",
-  //   body: formBody,
-  //   headers: {
-  //     "Content-Type": "application/x-www-form-urlencoded",
-  //   },
-  //   mode: "no-cors",
-  // });
+  const googleFormUrl =
+  "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfLxa7xChfMyvnP1v0KWeVld0oTfcfxhEqXBqVUJiMjba0jsg/formResponse";
+  await fetch(googleFormUrl, {
+    method: "POST",
+    body: formBody,
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    mode: "no-cors",
+  });
   var phoneNumber = "917012779827"; // Replace with your WhatsApp number (with country code, e.g., 919876543210)
   var text = `**Name:** ${name}%0A**Email:** ${email}%0A%0A**Message:** ${message}`;
   var url = `https://wa.me/${phoneNumber}?text=${text}`;
