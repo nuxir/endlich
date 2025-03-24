@@ -48,7 +48,7 @@ async function whatsapp() {
     },
     mode: "no-cors",
   });
-  var phoneNumber = "917012779827"; // Replace with your WhatsApp number (with country code, e.g., 919876543210)
+  var phoneNumber = "917012779827"; 
   var text = `**Name:** ${name}%0A**Email:** ${email}%0A%0A**Message:** ${message}`;
   var url = `https://wa.me/${phoneNumber}?text=${text}`;
 
